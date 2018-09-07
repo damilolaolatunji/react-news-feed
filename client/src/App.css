@@ -1,0 +1,28 @@
+.App {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.App-title {
+  text-align: center;
+}
+
+.text-input {
+  width: 100%;
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+}
+
+.text-input:hover {
+  box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.news-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-items li {
+  margin-bottom: 10px;
+}
