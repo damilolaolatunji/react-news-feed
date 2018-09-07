@@ -25,7 +25,7 @@ class App extends Component {
     const channel = pusher.subscribe('news-channel');
     channel.bind('update-news', data => {
       this.setState({
-        newsItems: [...this.state.newsItems, ...data.articles],
+        newsItems: [...data.articles, ...this.state.newsItems],
       });
     });
   }
