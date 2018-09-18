@@ -1,6 +1,6 @@
 # Realtime News Feed
 
-Demo of a realtime news feed with React and Pusher Channels. Tutorial:
+Demo of a realtime news feed with React and Pusher Channels. Tutorial: https://pusher.com/tutorials/live-news-feed-react
 
 ## Getting Started
 
