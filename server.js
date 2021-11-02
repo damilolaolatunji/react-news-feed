@@ -42,7 +42,7 @@ function updateFeed(topic) {
 }
 
 app.get('/live', (req, res) => {
-  const topic = 'bitcoin';
+  const topic = 'health care';
   fetchNews(topic, 1)
     .then(response => {
       res.json(response.articles);
