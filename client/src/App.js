@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Pusher from 'pusher-js';
 import pushid from 'pushid';
-import './App.css';
+import './css/App.css';
 import Chart from './Chart'
 import Logo from './images/logo'
 
