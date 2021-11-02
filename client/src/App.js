@@ -17,8 +17,8 @@ class App extends Component {
         });
       }).catch(error => console.log(error));
 
-    const pusher = new Pusher('6dd16304a8d9e90f8877', {
-      cluster: 'eu',
+    const pusher = new Pusher('ddab17149fc93eeb87ee', {
+      cluster: 'us2',
       encrypted: true,
     });
 
