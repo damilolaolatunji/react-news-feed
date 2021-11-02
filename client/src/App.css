@@ -26,3 +26,11 @@
 .news-items li {
   margin-bottom: 10px;
 }
+
+#Main_Logo {
+  width: 100%
+}
+
+#Data {
+  width: 50%
+}

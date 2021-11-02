@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Pusher from 'pusher-js';
 import pushid from 'pushid';
 import './App.css';
+import Chart from './Chart'
+import Logo from './images/logo'
 
 class App extends Component {
   state = {
@@ -39,9 +41,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1 className="App-title">Live Bitcoin Feed</h1>
-
+        <Logo></Logo>
         <ul className="news-items">{newsItems}</ul>
+        <Chart></Chart>
       </div>
     );
   }

@@ -22,7 +22,7 @@ const fetchNews = (searchTerm, pageNum) =>
     q: searchTerm,
     language: 'en',
     page: pageNum,
-    pageSize: 5,
+    pageSize: 1,
   });
 
 app.use(cors());
