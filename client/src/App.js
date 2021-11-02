@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Pusher from 'pusher-js';
 import pushid from 'pushid';
 import './css/App.css';
-import Chart from './Chart'
-import Logo from './images/logo'
+import Chart from './components/Chart'
+import Logo from './components/logo'
 
 class App extends Component {
   state = {
@@ -19,6 +19,7 @@ class App extends Component {
         });
       }).catch(error => console.log(error));
 
+// Connecting to the Pusher API
     const pusher = new Pusher('ddab17149fc93eeb87ee', {
       cluster: 'us2',
       encrypted: true,
